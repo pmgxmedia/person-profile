@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Wedding Studio</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">TVM-Media24</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
               Capturing your most precious moments with elegance and artistry.
             </p>
@@ -39,14 +39,14 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-4">Get in Touch</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>hello@weddingstudio.com</li>
+              <li>hello@tvmmedia24.com</li>
               <li>+1 (555) 123-4567</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Wedding Studio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TVM-Media24. All rights reserved.</p>
         </div>
       </div>
     </footer>
