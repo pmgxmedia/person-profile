@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Kern & Ink | Moody Photography Studio",
+  title: "TVM-Media24 | Moody Photography Studio",
   description: "Edgy, moody, and artistic photography. Vintage rustic vibes meet modern storytelling. Capturing raw, authentic moments.",
 };
 

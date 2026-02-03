@@ -29,8 +29,8 @@ export default function Navigation() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-white/98 backdrop-blur-md shadow-sm border-b border-gray-100/50' 
-        : 'bg-white/95 backdrop-blur-sm border-b border-gray-100'
+        ? 'bg-white shadow-md border-b border-gray-200' 
+        : 'bg-white/98 backdrop-blur-md shadow-sm border-b border-gray-200'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24 md:h-20">
@@ -42,7 +42,7 @@ export default function Navigation() {
           >
             <div className="relative">
               <span className="font-serif text-2xl md:text-3xl font-bold text-foreground group-hover:text-accent-rose transition-colors duration-300 tracking-tight">
-                Wedding Studio
+                TVM-Media24
               </span>
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-accent-rose to-accent-lavender group-hover:w-full transition-all duration-300"></span>
             </div>
